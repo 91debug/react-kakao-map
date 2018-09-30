@@ -1,4 +1,6 @@
 # react-kakao-map
+[![Build Status](https://travis-ci.org/91debug/react-kakao-map.svg?branch=master)](https://travis-ci.org/91debug/react-kakao-map)
+
 Component react for kakao map
 
 ## Installation
