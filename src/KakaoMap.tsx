@@ -13,11 +13,11 @@ interface KakaoMapState {
 }
 
 class KakaoMap extends React.Component<KakaoMapProps, KakaoMapState> {
-  state: KakaoMapState = {
+  public state: KakaoMapState = {
     sdkLoaded: false,
-  }
+  };
 
-  loadKakaoSdk = () => {
+  public loadKakaoSdk = () => {
     const {
       apiKey,
       lng,
@@ -84,4 +84,4 @@ class KakaoMap extends React.Component<KakaoMapProps, KakaoMapState> {
   }
 }
 
-export default KakaoMap
+export default KakaoMap;
